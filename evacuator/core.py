@@ -90,19 +90,13 @@ class DieContext:
     exception: Type[Exception] | tuple[Type[Exception], ...] = NeedEvacuation
     exit_code: int = ECANCELED
 
-    def __call__(self, func: Callable | None = None):
-        def wrapper(function):
-            @wraps(function)
-            def inner_wrapper(*args, **kwargs):
-                try:
-                    function(*args, **kwargs)
-                except self.exception:
-                    self._handle()
-
-            return inner_wrapper
-
-        if func:
-            return wrapper(func)
+    def __call__(self, func: Callable):
+        @wraps(func)
+        def wrapper(*args, **kwargs):
+            try:
+                func(*args, **kwargs)
+            except self.exception:
+                self._handle()
 
         return wrapper
 
