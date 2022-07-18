@@ -8,19 +8,25 @@ from evacuator import NeedEvacuation, evacuator
 def test_core_decorator():
     @evacuator
     def main1():
+        "doc"
         raise NeedEvacuation("abc")
 
     with pytest.raises(SystemExit, match="125"):
         main1()
 
+    assert main1.__doc__ == "doc"
+
 
 def test_core_decorator_brackets():
     @evacuator()
     def main2():
+        "doc"
         raise NeedEvacuation("abc")
 
     with pytest.raises(SystemExit, match="125"):
         main2()
+
+    assert main2.__doc__ == "doc"
 
 
 def test_core_decorator_args():

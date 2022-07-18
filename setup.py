@@ -1,20 +1,16 @@
-from os.path import abspath, dirname, join
+from pathlib import Path
 
 from setuptools import find_packages, setup
 
 from version import get_version
 
-__version__ = get_version()
-SELF_PATH = abspath(dirname(__file__))
-
-with open(join(SELF_PATH, "README.rst")) as f:
-    long_description = f.read()
+HERE = Path(__file__).parent.resolve()
 
 setup(
     name="evacuator",
-    version=__version__,
+    version=get_version(),
     description="Catch an exception and exit with an exit code",
-    long_description=long_description,
+    long_description=(HERE / "README.rst").read_text(),
     url="https://gitlab.services.mts.ru/bigdata/platform/everproject/evacuator",
     packages=find_packages(),
     author="ONEtools Team",
