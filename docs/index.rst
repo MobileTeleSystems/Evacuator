@@ -16,3 +16,5 @@
     install
     develop
     usage
+    contributing
+    security
