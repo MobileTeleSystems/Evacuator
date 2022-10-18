@@ -39,7 +39,14 @@ See https://bigdata.pages.mts.ru/platform/everproject/evacuator/
 Contribution guide
 -------------------
 
-See https://wiki.bd.msk.mts.ru/display/DAT/Contribution+guide
+See `<CONTRIBUTING.rst>`__
+
+.. security
+
+Security
+-------------------
+
+See `<SECURITY.rst>`__
 
 .. install
 
