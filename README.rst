@@ -8,12 +8,6 @@ Evacuator
 
 .. |Build Status| image:: https://gitlab.services.mts.ru/bigdata/platform/everproject/evacuator/badges/develop/pipeline.svg
     :target: https://gitlab.services.mts.ru/bigdata/platform/everproject/evacuator/-/pipelines
-.. |Quality Gate Status| image:: https://sonar.bd.msk.mts.ru/api/project_badges/measure?project=evacuator&metric=alert_status
-    :target: https://sonar.bd.msk.mts.ru/dashboard?id=evacuator
-.. |Maintainability Rating| image:: https://sonar.bd.msk.mts.ru/api/project_badges/measure?project=evacuator&metric=sqale_rating
-    :target: https://sonar.bd.msk.mts.ru/dashboard?id=evacuator
-.. |Coverage| image:: https://sonar.bd.msk.mts.ru/api/project_badges/measure?project=evacuator&metric=coverage
-    :target: https://sonar.bd.msk.mts.ru/dashboard?id=evacuator
 .. |Documentation| image:: https://img.shields.io/badge/docs-latest-success
     :target: https://bigdata.pages.mts.ru/platform/everproject/evacuator/
 .. |PyPI| image:: https://img.shields.io/badge/pypi-download-orange
