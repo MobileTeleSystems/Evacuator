@@ -3,7 +3,7 @@
 Evacuator
 =========
 
-|Build Status| |Quality Gate Status| |Maintainability Rating| |Coverage|
+|Build Status| |Coverage|
 |ReadTheDocs| |PyPI|
 
 .. |Build Status| image:: https://github.com/MobileTeleSystems/evacuator/workflows/Tests/badge.svg
