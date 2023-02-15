@@ -16,7 +16,6 @@ stages:
 - static analysis
 - build
 - tests
-- sonarqube_check
 - build_docs
 - artifactory
 - deploy
@@ -36,11 +35,6 @@ include:
   file:
   - .base_docker_build.yml
   - .base_docker_cleaner.yml
-
-# SONARQUBE
-- project: DevOps/cicd-store/gitlabci/sonarqube
-  ref: v1
-  file: .base_check_sonarqube.yml
 
 # PIP BUILD AND DEPLOY TO JFROG
 - project: DevOps/cicd-store/gitlabci/pip
@@ -156,18 +150,6 @@ tests:
       - junitxml.xml
       cobertura:
       - coverage.xml
-  interruptible: true
-
-sonarqube_check:
-  extends: .base_check_sonarqube
-  stage: sonarqube_check
-  variables:
-    SONAR_SOURCES: evacuator
-  rules:
-  # do not run sonarcube check after pushing git tag, code was already linted
-  - if: $CI_COMMIT_TAG
-    when: never
-  - when: on_success
   interruptible: true
 
 build_and_deploy:
