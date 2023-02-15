@@ -4,12 +4,12 @@ Evacuator
 =========
 
 |Build Status| |Quality Gate Status| |Maintainability Rating| |Coverage|
-|Documentation| |PyPI|
+|ReadTheDocs| |PyPI|
 
-.. |Build Status| image:: https://gitlab.services.mts.ru/bigdata/platform/everproject/evacuator/badges/develop/pipeline.svg
-    :target: https://gitlab.services.mts.ru/bigdata/platform/everproject/evacuator/-/pipelines
-.. |Documentation| image:: https://img.shields.io/badge/docs-latest-success
-    :target: https://bigdata.pages.mts.ru/platform/everproject/evacuator/
+.. |Build Status| image:: https://github.com/MobileTeleSystems/evacuator/workflows/Tests/badge.svg
+    :target: https://github.com/MobileTeleSystems/evacuator/actions
+.. |ReadTheDocs| image:: https://readthedocs.org/projects/evacuator/badge/?version=latest
+    :target: https://evacuator.readthedocs.io/en/latest/?badge=latest
 .. |PyPI| image:: https://img.shields.io/badge/pypi-download-orange
     :target: http://rep.msk.mts.ru/ui/packages/pypi:%2F%2Fevacuator?name=evacuator&type=packages
 
@@ -26,7 +26,7 @@ Decorator/context manager designed to catch a certain exception and exit with sp
 Documentation
 -------------
 
-See https://bigdata.pages.mts.ru/platform/everproject/evacuator/
+See https://evacuator.readthedocs.io/
 
 .. contribution
 

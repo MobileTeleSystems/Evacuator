@@ -13,7 +13,7 @@ setup(
     long_description=(HERE / "README.rst").read_text(),
     license="Apache License 2.0",
     license_files=("LICENSE.txt",),
-    url="https://gitlab.services.mts.ru/bigdata/platform/everproject/evacuator",
+    url="https://github.com/MobileTeleSystems/evacuator",
     packages=find_packages(),
     author="ONEtools Team",
     author_email="onetools@mts.ru",
@@ -23,4 +23,10 @@ setup(
     classifiers=[
         "License :: OSI Approved :: Apache Software License",
     ],
+    project_urls={
+        "Documentation": "https://evacuator.readthedocs.io/en/stable/",
+        "Source": "https://github.com/MobileTeleSystems/evacuator",
+        "CI/CD": "https://github.com/MobileTeleSystems/evacuator/actions",
+        "Tracker": "https://github.com/MobileTeleSystems/evacuator/issues",
+    },
 )
