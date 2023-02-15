@@ -68,7 +68,7 @@ Clone repo
 
 .. code:: bash
 
-    git clone ssh://git@gitlab.services.mts.ru:8022/bigdata/platform/everproject/evacuator.git -b develop
+    git clone git@github.com:MobileTeleSystems/Evacuator.git -b develop
 
     cd mtspark
 
