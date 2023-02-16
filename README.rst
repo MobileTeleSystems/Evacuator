@@ -12,8 +12,8 @@ Evacuator
     :target: https://evacuator.readthedocs.io/en/latest/?badge=latest
 .. |PyPI| image:: https://img.shields.io/badge/pypi-download-orange
     :target: http://rep.msk.mts.ru/ui/packages/pypi:%2F%2Fevacuator?name=evacuator&type=packages
-.. |CodeCov| image:: https://codecov.io/gh/MobileTeleSystems/evacuator/branch/develop/graph/badge.svg?token=RIO8URKNZJ 
-    :target: https://codecov.io/gh/MobileTeleSystems/evacuator
+.. |CodeCov| .. image:: https://codecov.io/gh/MobileTeleSystems/Evacuator/branch/develop/graph/badge.svg?token=CM6AQWY65P
+    :target: https://codecov.io/gh/MobileTeleSystems/Evacuator
 
 What is Evacuator?
 ------------------
