@@ -19,12 +19,14 @@ def get_version():
     return f"{version}.dev{build_num}"
 
 here = Path(__file__).parent.resolve()
+long_description = (here / "README.rst").read_text()
 
 setup(
     name="evacuator",
     version=get_version(),
     description="Catch an exception and exit with an exit code",
-    long_description=(here / "README.rst").read_text(),
+    long_description=long_description,
+    long_description_content_type="text/x-rst",
     license="Apache License 2.0",
     license_files=("LICENSE.txt",),
     url="https://github.com/MobileTeleSystems/evacuator",
