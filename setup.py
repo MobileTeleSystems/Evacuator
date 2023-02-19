@@ -38,6 +38,9 @@ setup(
     zip_safe=False,
     classifiers=[
         "License :: OSI Approved :: Apache Software License",
+        "Programming Language :: Python :: 3 :: Only",
+        "Programming Language :: Python :: 3.7",
+        "Operating System :: OS Independent",
     ],
     project_urls={
         "Documentation": "https://evacuator.readthedocs.io/en/stable/",
