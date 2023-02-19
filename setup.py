@@ -43,7 +43,7 @@ setup(
         "Operating System :: OS Independent",
     ],
     project_urls={
-        "Documentation": "https://evacuator.readthedocs.io/en/stable/",
+        "Documentation": "https://evacuator.readthedocs.io/en/latest/",
         "Source": "https://github.com/MobileTeleSystems/evacuator",
         "CI/CD": "https://github.com/MobileTeleSystems/evacuator/actions",
         "Tracker": "https://github.com/MobileTeleSystems/evacuator/issues",
