@@ -10,8 +10,8 @@ Evacuator
     :target: https://github.com/MobileTeleSystems/evacuator/actions
 .. |ReadTheDocs| image:: https://readthedocs.org/projects/evacuator/badge/?version=latest
     :target: https://evacuator.readthedocs.io/en/latest/?badge=latest
-.. |PyPI| image:: https://img.shields.io/badge/pypi-download-orange
-    :target: https://badge.fury.io/py/Evacuator
+.. |PyPI| image:: https://img.shields.io/pypi/v/Evacuator
+    :target: https://pypi.org/project/Evacuator/
 .. |CodeCov| image:: https://codecov.io/gh/MobileTeleSystems/Evacuator/branch/develop/graph/badge.svg?token=CM6AQWY65P
     :target: https://codecov.io/gh/MobileTeleSystems/Evacuator
 
