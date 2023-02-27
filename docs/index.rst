@@ -9,10 +9,19 @@
     self
 
 .. toctree::
-    :maxdepth: 2
-    :caption: How to
+    :maxdepth: 1
+    :caption: Contents
+    :name: mastertoc
     :hidden:
 
-    install
-    develop
     usage
+
+.. toctree::
+    :maxdepth: 2
+    :caption: Develop
+    :name: develop
+    :hidden:
+
+    develop
+    contributing
+    security
