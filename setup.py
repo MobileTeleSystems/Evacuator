@@ -3,6 +3,7 @@ from pathlib import Path
 
 from setuptools import find_packages, setup
 
+
 def get_version():
     if os.getenv("GITHUB_REF_TYPE", "branch") == "tag":
         return os.environ["GITHUB_REF_NAME"]
@@ -18,8 +19,9 @@ def get_version():
 
     return f"{version}.dev{build_num}"
 
+
 here = Path(__file__).parent.resolve()
-long_description = (here / "README.rst").read_text()
+long_description = here.joinpath("README.rst").read_text()
 
 setup(
     name="evacuator",

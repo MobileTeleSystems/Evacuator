@@ -1,4 +1,4 @@
-#  Copyright 2022 MTS (Mobile Telesystems)
+#  Copyright 2023 MTS (Mobile Telesystems)
 #
 #  Licensed under the Apache License, Version 2.0 (the "License");
 #  you may not use this file except in compliance with the License.
@@ -25,19 +25,14 @@
 # documentation root, use os.path.abspath to make it absolute, like shown here.
 #
 
-import os
 import subprocess
-import sys
 
 from packaging import version as Version
-
-sys.path.insert(0, os.path.abspath(os.path.dirname(os.path.dirname(__file__))))
-
 
 # -- Project information -----------------------------------------------------
 
 project = "Evacuator"
-copyright = "2022, ONEtools Team"
+copyright = "2023, ONEtools Team"
 author = "ONEtools Team"
 
 # The version info for the project you're documenting, acts as replacement for
@@ -98,4 +93,4 @@ todo_include_todos = False
 # -- Options for HTMLHelp output ------------------------------------------
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = "my-project-doc"
+htmlhelp_basename = "evacuator-doc"
