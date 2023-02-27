@@ -1,2 +1,2 @@
 .. include:: ../README.rst
-    :start-after: development
+    :start-after: develops

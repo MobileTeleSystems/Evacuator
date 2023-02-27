@@ -1,3 +1,4 @@
 numpydoc
+packaging
 sphinx
 sphinx_rtd_theme

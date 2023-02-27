@@ -41,13 +41,10 @@ jobs:
         key: ${{ runner.os }}-python-${{ matrix.python-version }}-tests-${{ hashFiles('requirements*.txt') }}
         restore-keys: |
           ${{ runner.os }}-python-${{ matrix.python-version }}-tests-${{ hashFiles('requirements*.txt') }}
-          ${{ runner.os }}-python-${{ matrix.python-version }}-codeql-${{ hashFiles('requirements*.txt') }}
-          ${{ runner.os }}-python-${{ matrix.python-version }}-release-${{ hashFiles('requirements*.txt') }}
           ${{ runner.os }}-python-${{ matrix.python-version }}-tests-
-          ${{ runner.os }}-python-${{ matrix.python-version }}-codeql-
-          ${{ runner.os }}-python-${{ matrix.python-version }}-release-
           ${{ runner.os }}-python
           ${{ runner.os }}-
+
     - name: Upgrade pip
       run: python -m pip install --upgrade pip setuptools wheel
 
@@ -60,15 +57,18 @@ jobs:
         git tag -l --sort=-creatordate --merged
         python setup.py --version
         python setup.py bdist_wheel sdist
+
     - name: Run tests
       run: |
         mkdir reports/ || echo "Directory exists"
         pip install -e . --no-build-isolation
         coverage run -m pytest
+
     - name: Combine coverage
       run: |
         coverage combine
         coverage xml -o reports/coverage-${{ matrix.python-version }}.xml -i
+
     - name: Upload coverage results
       uses: actions/upload-artifact@v3
       with:
