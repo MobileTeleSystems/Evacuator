@@ -19,7 +19,7 @@ Evacuator
 .. |Build Status| image:: https://github.com/MobileTeleSystems/evacuator/workflows/Tests/badge.svg
     :target: https://github.com/MobileTeleSystems/evacuator/actions
 .. |Documentation| image:: https://readthedocs.org/projects/evacuator/badge/?version=stable
-    :target: https://evacuator.readthedocs.io/en/latest/?badge=stable
+    :target: https://evacuator.readthedocs.io/en/stable/
 .. |Coverage| image:: https://codecov.io/gh/MobileTeleSystems/evacuator/branch/develop/graph/badge.svg?token=CM6AQWY65P
     :target: https://codecov.io/gh/MobileTeleSystems/evacuator
 
