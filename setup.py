@@ -39,14 +39,17 @@ setup(
     include_package_data=True,
     zip_safe=False,
     classifiers=[
+        "Development Status :: 4 - Beta",
+        "Intended Audience :: Developers",
         "License :: OSI Approved :: Apache Software License",
+        "Operating System :: OS Independent",
         "Programming Language :: Python :: 3 :: Only",
         "Programming Language :: Python :: 3.7",
         "Programming Language :: Python :: 3.8",
         "Programming Language :: Python :: 3.9",
         "Programming Language :: Python :: 3.10",
         "Programming Language :: Python :: 3.11",
-        "Operating System :: OS Independent",
+        "Typing :: Typed",
     ],
     project_urls={
         "Documentation": "https://evacuator.readthedocs.io",
