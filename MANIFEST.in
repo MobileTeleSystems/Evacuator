@@ -1,4 +1,4 @@
-include README.rst evacuator/VERSION
+include README.rst evacuator/VERSION evacuator/py.typed
 recursive-exclude * __pycache__
 recursive-exclude * *.pyc
 recursive-exclude * *.pyo
