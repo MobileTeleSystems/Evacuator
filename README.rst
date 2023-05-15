@@ -7,15 +7,13 @@ Evacuator
 |Documentation| |Build Status| |Coverage|
 
 .. |Repo Status| image:: https://www.repostatus.org/badges/latest/active.svg
-    :target: https://www.repostatus.org/#active
+    :target: https://github.com/MobileTeleSystems/evacuator
 .. |PyPI| image:: https://img.shields.io/pypi/v/evacuator
     :target: https://pypi.org/project/evacuator/
 .. |PyPI License| image:: https://img.shields.io/pypi/l/evacuator.svg
     :target: https://github.com/MobileTeleSystems/evacuator/blob/develop/LICENSE.txt
 .. |PyPI Python Version| image:: https://img.shields.io/pypi/pyversions/evacuator.svg
     :target: https://badge.fury.io/py/evacuator
-.. |ReadTheDocs| image:: https://img.shields.io/readthedocs/evacuator.svg
-    :target: https://evacuator.readthedocs.io
 .. |Build Status| image:: https://github.com/MobileTeleSystems/evacuator/workflows/Tests/badge.svg
     :target: https://github.com/MobileTeleSystems/evacuator/actions
 .. |Documentation| image:: https://readthedocs.org/projects/evacuator/badge/?version=stable

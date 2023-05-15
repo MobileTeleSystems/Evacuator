@@ -9,7 +9,7 @@ def get_version():
         return os.environ["GITHUB_REF_NAME"]
 
     version_file = here / "evacuator" / "VERSION"
-    version = version_file.read_text().strip()  # noqa: WPS410
+    version = version_file.read_text().strip()
 
     build_num = os.environ.get("GITHUB_RUN_ID", "0")
     branch_name = os.environ.get("GITHUB_REF_NAME", "")
@@ -32,7 +32,7 @@ setup(
     license="Apache License 2.0",
     license_files=("LICENSE.txt",),
     url="https://github.com/MobileTeleSystems/evacuator",
-    packages=find_packages(),
+    packages=find_packages(exclude=["docs", "docs.*", "tests", "tests.*"]),
     author="ONEtools Team",
     author_email="onetools@mts.ru",
     python_requires=">=3.7",
@@ -49,7 +49,7 @@ setup(
         "Operating System :: OS Independent",
     ],
     project_urls={
-        "Documentation": "https://evacuator.readthedocs.io/en/stable/",
+        "Documentation": "https://evacuator.readthedocs.io",
         "Source": "https://github.com/MobileTeleSystems/evacuator",
         "CI/CD": "https://github.com/MobileTeleSystems/evacuator/actions",
         "Tracker": "https://github.com/MobileTeleSystems/evacuator/issues",
