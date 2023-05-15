@@ -9,8 +9,7 @@ on:
   pull_request:
     branches:
     - develop
-  schedule:
-  - cron: 45 13 * * 6
+  workflow_dispatch:
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.head_ref || github.ref }}
