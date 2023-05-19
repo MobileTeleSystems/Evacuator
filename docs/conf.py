@@ -24,8 +24,8 @@ sys.path.insert(0, os.fspath(Path(__file__).parent.parent.absolute()))
 # -- Project information -----------------------------------------------------
 
 project = "Evacuator"
-copyright = "2023, ONEtools Team"
-author = "ONEtools Team"
+copyright = "2023, DataOps.ETL"
+author = "DataOps.ETL"
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the

@@ -33,7 +33,7 @@ setup(
     license_files=("LICENSE.txt",),
     url="https://github.com/MobileTeleSystems/evacuator",
     packages=find_packages(exclude=["docs", "docs.*", "tests", "tests.*"]),
-    author="ONEtools Team",
+    author="DataOps.ETL",
     author_email="onetools@mts.ru",
     python_requires=">=3.7",
     include_package_data=True,
