@@ -22,6 +22,6 @@
     :name: develop
     :hidden:
 
-    develop
+    changelog
     contributing
     security
