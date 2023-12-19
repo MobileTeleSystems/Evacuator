@@ -18,20 +18,22 @@ import logging
 import sys
 from dataclasses import dataclass
 from functools import wraps
-from typing import Callable, NoReturn, Type
+from typing import Callable, NoReturn, Type, TypeVar
 
 from evacuator.exception import NeedEvacuation
 
 logger = logging.getLogger(__name__)
 
+T = TypeVar("T", bound=Callable)
+
 ECANCELED = 125
 
 
 def evacuator(
-    func: Callable | None = None,
+    func: T | None = None,
     exception: Type[Exception] | tuple[Type[Exception], ...] = NeedEvacuation,
     exit_code: int = ECANCELED,
-):
+) -> T | Callable[[T], T]:
     """Catch specific exception and exit with exit code.
 
     Can be used as either decorator or context manager
