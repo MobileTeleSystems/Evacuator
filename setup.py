@@ -57,4 +57,5 @@ setup(
         "CI/CD": "https://github.com/MobileTeleSystems/evacuator/actions",
         "Tracker": "https://github.com/MobileTeleSystems/evacuator/issues",
     },
+    entry_points={"tricoder_package_spy.register": ["evacuator=evacuator"]},
 )
