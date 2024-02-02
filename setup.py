@@ -1,5 +1,3 @@
-# SPDX-FileCopyrightText: 2022-2024 MTS (Mobile Telesystems)
-# SPDX-License-Identifier: Apache-2.0
 import os
 from pathlib import Path
 
