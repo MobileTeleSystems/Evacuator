@@ -1,3 +1,5 @@
+# SPDX-FileCopyrightText: 2022-2024 MTS (Mobile Telesystems)
+# SPDX-License-Identifier: Apache-2.0
 import os
 from pathlib import Path
 
@@ -29,7 +31,7 @@ setup(
     description="Catch an exception and exit with an exit code",
     long_description=long_description,
     long_description_content_type="text/x-rst",
-    license="Apache License 2.0",
+    license="Apache-2.0",
     license_files=("LICENSE.txt",),
     url="https://github.com/MobileTeleSystems/evacuator",
     packages=find_packages(exclude=["docs", "docs.*", "tests", "tests.*"]),
