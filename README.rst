@@ -50,17 +50,3 @@ Documentation
 -------------
 
 See https://evacuator.readthedocs.io/
-
-.. contribution
-
-Contribution guide
--------------------
-
-See `<CONTRIBUTING.rst>`__
-
-.. security
-
-Security
--------------------
-
-See `<SECURITY.rst>`__
