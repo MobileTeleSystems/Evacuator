@@ -4,7 +4,7 @@ Evacuator
 =========
 
 |Repo Status| |PyPI| |PyPI License| |PyPI Python Version|
-|Documentation| |Build Status| |Coverage|
+|Documentation| |Build Status| |Coverage| |pre-commit.ci|
 
 .. |Repo Status| image:: https://www.repostatus.org/badges/latest/active.svg
     :target: https://github.com/MobileTeleSystems/evacuator
@@ -20,6 +20,8 @@ Evacuator
     :target: https://evacuator.readthedocs.io/en/stable/
 .. |Coverage| image:: https://codecov.io/gh/MobileTeleSystems/evacuator/branch/develop/graph/badge.svg?token=CM6AQWY65P
     :target: https://codecov.io/gh/MobileTeleSystems/evacuator
+.. |pre-commit.ci| image:: https://results.pre-commit.ci/badge/github/MobileTeleSystems/evacuator/develop.svg
+    :target: https://results.pre-commit.ci/latest/github/MobileTeleSystems/evacuator/develop
 
 What is Evacuator?
 ------------------
