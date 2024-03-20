@@ -3,13 +3,11 @@
 Evacuator
 =========
 
-|Repo Status| |PyPI| |PyPI License| |PyPI Python Version|
+|Repo Status| |PyPI License| |PyPI Python Version|
 |Documentation| |Build Status| |Coverage| |pre-commit.ci|
 
 .. |Repo Status| image:: https://www.repostatus.org/badges/latest/active.svg
     :target: https://github.com/MobileTeleSystems/evacuator
-.. |PyPI| image:: https://img.shields.io/pypi/v/evacuator
-    :target: https://pypi.org/project/evacuator/
 .. |PyPI License| image:: https://img.shields.io/pypi/l/evacuator.svg
     :target: https://github.com/MobileTeleSystems/evacuator/blob/develop/LICENSE.txt
 .. |PyPI Python Version| image:: https://img.shields.io/pypi/pyversions/evacuator.svg
