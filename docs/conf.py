@@ -19,13 +19,15 @@ from pathlib import Path
 
 from packaging import version as Version
 
-sys.path.insert(0, os.fspath(Path(__file__).parent.parent.absolute()))
+PROJECT_ROOT_DIR = Path(__file__).parent.parent.resolve()
+
+sys.path.insert(0, os.fspath(PROJECT_ROOT_DIR))
 
 # -- Project information -----------------------------------------------------
 
 project = "Evacuator"
-copyright = "2023, ONEtools Team"
-author = "ONEtools Team"
+copyright = "2022-2024 MTS (Mobile Telesystems)"
+author = "DataOps.ETL"
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -48,11 +50,14 @@ extensions = [
     "sphinx_copybutton",
     "sphinx.ext.autodoc",
     "sphinx.ext.autosummary",
+    "sphinx_toolbox.github",
+    "sphinxcontrib.towncrier",  # provides `towncrier-draft-entries` directive
 ]
 numpydoc_show_class_members = False
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ["_templates"]
+html_extra_path = ["robots.txt"]
 
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
@@ -91,3 +96,10 @@ todo_include_todos = False
 
 # Output file base name for HTML help builder.
 htmlhelp_basename = "evacuator-doc"
+
+towncrier_draft_autoversion_mode = "draft"
+towncrier_draft_include_empty = False
+towncrier_draft_working_directory = PROJECT_ROOT_DIR
+
+github_username = "MobileTeleSystems"
+github_repository = "evacuator"

@@ -1,0 +1,7 @@
+1.0.2 (2023-02-27)
+------------------
+
+🎉 Evacuator is now open source 🎉
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+That was long road, but we finally did it!
