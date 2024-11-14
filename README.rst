@@ -3,22 +3,35 @@
 Evacuator
 =========
 
-|Repo Status| |PyPI License| |PyPI Python Version|
-|Documentation| |Build Status| |Coverage| |pre-commit.ci|
+|Repo Status| |PyPI Latest Release| |PyPI License| |PyPI Python Version| |PyPI Downloads|
+|Documentation| |CI Status| |Test Coverage| |pre-commit.ci Status|
 
 .. |Repo Status| image:: https://www.repostatus.org/badges/latest/active.svg
+    :alt: Repo status - Active
     :target: https://github.com/MobileTeleSystems/evacuator
+.. |PyPI Latest Release| image:: https://img.shields.io/pypi/v/evacuator
+    :alt: PyPI - Latest Release
+    :target: https://pypi.org/project/evacuator/
 .. |PyPI License| image:: https://img.shields.io/pypi/l/evacuator.svg
+    :alt: PyPI - License
     :target: https://github.com/MobileTeleSystems/evacuator/blob/develop/LICENSE.txt
 .. |PyPI Python Version| image:: https://img.shields.io/pypi/pyversions/evacuator.svg
-    :target: https://badge.fury.io/py/evacuator
-.. |Build Status| image:: https://github.com/MobileTeleSystems/evacuator/workflows/Tests/badge.svg
-    :target: https://github.com/MobileTeleSystems/evacuator/actions
+    :alt: PyPI - Python Version
+    :target: https://pypi.org/project/evacuator/
+.. |PyPI Downloads| image:: https://img.shields.io/pypi/dm/evacuator
+    :alt: PyPI - Downloads
+    :target: https://pypi.org/project/evacuator/
 .. |Documentation| image:: https://readthedocs.org/projects/evacuator/badge/?version=stable
-    :target: https://evacuator.readthedocs.io/en/stable/
-.. |Coverage| image:: https://codecov.io/gh/MobileTeleSystems/evacuator/branch/develop/graph/badge.svg?token=CM6AQWY65P
+    :alt: Documentation - ReadTheDocs
+    :target: https://evacuator.readthedocs.io/
+.. |CI Status| image:: https://github.com/MobileTeleSystems/evacuator/workflows/Tests/badge.svg
+    :alt: Github Actions - latest CI build status
+    :target: https://github.com/MobileTeleSystems/evacuator/actions
+.. |Test Coverage| image:: https://codecov.io/gh/MobileTeleSystems/evacuator/branch/develop/graph/badge.svg?token=CM6AQWY65P
+    :alt: Test coverage - percent
     :target: https://codecov.io/gh/MobileTeleSystems/evacuator
-.. |pre-commit.ci| image:: https://results.pre-commit.ci/badge/github/MobileTeleSystems/evacuator/develop.svg
+.. |pre-commit.ci Status| image:: https://results.pre-commit.ci/badge/github/MobileTeleSystems/evacuator/develop.svg
+    :alt: pre-commit.ci - status
     :target: https://results.pre-commit.ci/latest/github/MobileTeleSystems/evacuator/develop
 
 What is Evacuator?
