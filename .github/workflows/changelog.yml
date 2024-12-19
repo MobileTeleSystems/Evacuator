@@ -7,7 +7,7 @@ on:
       - master
 
 env:
-  DEFAULT_PYTHON: '3.12'
+  DEFAULT_PYTHON: '3.13'
 
 permissions:
   contents: read
@@ -44,7 +44,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install -I requirements-docs.txt
+          pip install -I -r requirements-docs.txt
 
       - name: Check changelog entry exists
         run: |
