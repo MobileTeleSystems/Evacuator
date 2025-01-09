@@ -1,3 +1,5 @@
+from __future__ import annotations
+
 import logging
 
 import pytest
@@ -31,7 +33,7 @@ def test_core_decorator_brackets():
 
 def test_core_decorator_args():
     @evacuator()
-    def main(arg, kwarg: int | None = None, *args, **kwargs):
+    def main(arg, *args, kwarg: int | None = None, **kwargs):
         raise NeedEvacuation(f"arg={arg} kwarg={kwarg} args={args} kwargs={kwargs}")
 
     with pytest.raises(SystemExit, match="125"):
